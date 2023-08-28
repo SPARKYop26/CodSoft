@@ -24,7 +24,7 @@ class Contact implements Serializable {
         return emailAddress;
     }
 
-    @Override
+    
     public String toString() {
         return "Name: " + name + "\nPhone: " + phoneNumber + "\nEmail: " + emailAddress;
     }
@@ -58,7 +58,7 @@ class AddressBook implements Serializable {
         return contacts;
     }
 
-    @Override
+    
     public String toString() {
         StringBuilder result = new StringBuilder();
         for (Contact contact : contacts) {
@@ -216,3 +216,4 @@ class AddressBookSystem {
         }
     }
 }
+
