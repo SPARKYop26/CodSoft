@@ -93,7 +93,7 @@ class ATM {
     }
 }
 
-public class AtmMachine {
+public class AtmInterface {
     public static void main(String[] args) {
         Scanner inputScanner = new Scanner(System.in);
         System.out.print("Enter initial balance: ");
